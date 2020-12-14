@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import '../styles/index.css';
+import swal from 'sweetalert';
 
 const Home = () => {
   const history = useHistory();
+
+  useEffect(() => {
+    swal({
+      text:
+        'Backstage is undergoing maintenance right now. Sorry about that! Check back soon.',
+      icon: 'warning',
+      button: false,
+      closeOnClickOutside: false
+    });
+  });
+
   return (
     <div className="landing-page">
       <div
         className="landing-container-1 bg-no-repeat bg-center bg-cover"
-        style={{ backgroundImage: "url('landing-page-images/backstage1.png')" }}
+        style={{
+          backgroundImage: "url('landing-page-images/backstage1.png')",
+          height: '100vh'
+        }}
       >
         <form
           className="form1"
@@ -18,7 +33,7 @@ const Home = () => {
         >
           <div className="welcome">
             <h1 className="title-1 pt-20">WELCOME TO BACKSTAGE.</h1>
-            <p className="title-paragraph-1">
+            <p className="title-paragraph-1" style={{ fontSize: '1.4rem' }}>
               We're here to make connecting venues and artists easier.
             </p>
             <button
@@ -64,17 +79,22 @@ const Home = () => {
       <div
         className="landing-container-3 bg-no-repeat bg-center bg-cover"
         style={{
-          backgroundImage: "url('landing-page-images/green-background.png')"
+          backgroundImage: "url('landing-page-images/green-background.png')",
+          display: 'flex',
+          justifyContent: 'space-evenly'
         }}
       >
-        <div className="landing-container-3-info">
+        <div
+          className="landing-container-3-info"
+          style={{ paddingRight: '2.5rem' }}
+        >
           <h1 className="title">Easily share critical info with your artist</h1>
           <p className="title-paragraph">
             Stage dimenstions? Rain plans? Tell your artist know everything they
             need to know before show time.
           </p>
         </div>
-        <div className="landing-container-3-image">
+        <div className="landing-container-3-image" style={{ width: '42rem' }}>
           <img
             className="landing-pic-3"
             src="../landing-page-images/land-pic-3.png"
@@ -103,11 +123,19 @@ const Home = () => {
       <div
         className="landing-container-5 bg-no-repeat bg-center"
         style={{
-          backgroundImage: "url('landing-page-images/white-background.png')"
+          backgroundImage: "url('landing-page-images/white-background.png')",
+          backgroundSize: 'cover'
         }}
       >
-        <div className="landing-container-5-info">
-          <h1 className="title-2">
+        <div
+          className="landing-container-5-info"
+          style={{
+            display: 'flex',
+            alignSelf: 'center',
+            alignItems: 'flex-start'
+          }}
+        >
+          <h1 className="title-2" style={{ paddingRight: '2.5rem' }}>
             Save all of your stage configurations for easy sharing
           </h1>
           <p className="title-paragraph-2">
@@ -124,7 +152,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="landing-footer">
+      <div style={{ height: '4rem' }} className="landing-footer">
         <div className="landing-footer-info"></div>
       </div>
     </div>
