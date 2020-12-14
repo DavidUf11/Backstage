@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="landing-page">
       <div
-        className="landing-container-1 bg-no-repeat bg-center"
+        className="landing-container-1 bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: "url('landing-page-images/backstage1.png')" }}
       >
         <form
