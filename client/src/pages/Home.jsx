@@ -152,7 +152,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div style={{ height: '4rem' }} className="landing-footer">
+      <div style={{ height: '4.2rem' }} className="landing-footer">
         <div className="landing-footer-info"></div>
       </div>
     </div>
