@@ -7,12 +7,10 @@ Backstage is an app designed to allow venues and artists to share essential    i
 
  - Users enjoy their own dashboard with saved stages, equipment, and events
  - Users can create events and generate a unique link to share with collaborators
- - Drag and Drop Stage Plot Coordination
+ - Drag-and-drop stage plot creation
  - PDF Download
- - Users can upload their own profile image
- - Saved events
-
-
+  - Saved events
+ 
 
 ## Setup
 
