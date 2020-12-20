@@ -2,8 +2,10 @@
 
 Backstage is a collaboration platform for independent musicians and local venues. Venues can share equipment lists and stage configurations through a unique, Zoom-style link. Artists can save custom, drag-and-drop stageplots to a PDF and share with the venue.
 
+Wyncode final project.
 
-## Special Features
+
+## Special features
 
  - Users enjoy their own dashboard with saved stages, equipment, and events
  - Users can create events and generate a unique link to share with collaborators
