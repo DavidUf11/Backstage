@@ -1,15 +1,15 @@
 # Backstage
 
-Backstage is a collaboration platform for independent musicians and local venues.  
+Backstage is a collaboration platform for independent musicians and local venues. Venues can share equipment lists and stage configurations through a unique, Zoom-style link. Artists can save custom, drag-and-drop stageplots to a PDF and share with the venue.
 
 
 ## Special Features
 
  - Users enjoy their own dashboard with saved stages, equipment, and events
  - Users can create events and generate a unique link to share with collaborators
+ - Unique link copy-to-clipboard in one click
  - Drag-and-drop stage plot creation
  - PDF Download
-  - Saved events
  
 
 ## Setup
@@ -30,11 +30,10 @@ Backstage is a collaboration platform for independent musicians and local venues
 
 
 ## APIs and frameworks
-- Sendgrid for our email functionality
-- TailwindCSS and PostCSS for the front end components and design
+- Sendgrid for signup email functionality
+- TailwindCSS and PostCSS for the front-end component design
 - Cloudinary to upload and manage user images
-- To keep track of login information, we used JWT-based token authentication, bcrypt for password hashing, and Passport for user authentication
-
+- JWT-based token authentication, bcrypt, and Passport for user authentication and password hashing
 
 
 ## To deploy
