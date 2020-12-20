@@ -1,6 +1,6 @@
 # Backstage
 
-Backstage is an app designed to allow venues and artists to share essential    information needed to orchestrate unhindered performances.  
+Backstage is a collaboration platform for independent musicians and local venues.  
 
 
 ## Special Features
