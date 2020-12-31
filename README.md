@@ -1,6 +1,6 @@
 # Backstage
 
-A Wyncode final project, Backstage is a collaboration platform for independent musicians and local venues. Venues can share equipment lists and stage configurations through a unique, Zoom-style link. Artists can save custom, drag-and-drop stageplots to a PDF and share with the venue.
+Backstage is a collaboration platform for independent musicians and local venues. Venues can share equipment lists and stage configurations through a unique, Zoom-style link. Artists can save custom, drag-and-drop stageplots to a PDF and share with the venue. Basckstage is a Wyncode final project.
 
 ## Special features
 
